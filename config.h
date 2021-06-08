@@ -1,5 +1,16 @@
 /* See LICENSE file for copyright and license details. */
 
+/*** TODO***/ 
+ /* mudar alt pra super
+	* ? super space no lugat de enter
+	* super q - fexar
+	* adicionar layouts
+	*		centered master
+	*		fibonacci
+	*		patch - vanity gaps
+	*			a,z,s
+	*	patch super scratchpad
+ */
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -44,7 +55,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
